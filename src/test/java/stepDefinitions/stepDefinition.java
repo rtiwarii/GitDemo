@@ -83,6 +83,7 @@ public class stepDefinition extends Utils{
 		req= given().log().all()
 			.spec(requestSpecification())
 			.body(testData.deletePlacePayload(place_id));
+		System.out.println("Done");
 	}
 
 }
